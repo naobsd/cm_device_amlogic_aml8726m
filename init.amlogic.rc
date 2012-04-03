@@ -19,6 +19,7 @@ on post-fs-data
 	mkdir /data/misc/dhcp 0770 dhcp dhcp
 	chown dhcp dhcp /data/misc/dhcp
 
+	# MEMSIC
 	mkdir /data/misc/sensors
 
 	setprop vold.post_fs_data_done 1
@@ -38,9 +39,11 @@ on fs
 	#chown bluetooth bluetooth /sys/class/rfkill/rfkill0/state
 	#chown bluetooth bluetooth /sys/class/rfkill/rfkill0/type
 
+	# Mali
 	insmod /system/lib/modules/ump.ko
 	insmod /system/lib/modules/mali.ko
 
+	# lights.amlogic.so
 	chown system system /sys/class/backlight/aml-bl/brightness
 
 # create filesystems if necessary

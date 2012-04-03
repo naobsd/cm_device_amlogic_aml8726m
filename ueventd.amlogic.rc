@@ -1,5 +1,9 @@
-/dev/ecompass_ctrl        0660   system     system
-/dev/mali                 0666   system     graphics
-/dev/ump                  0666   system     graphics
 /dev/video0               0666   system     system
 /dev/video1               0666   system     system
+
+# MEMSIC
+/dev/ecompass_ctrl        0660   system     system
+
+# Mali
+/dev/mali                 0666   system     graphics
+/dev/ump                  0666   system     graphics
