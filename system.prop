@@ -1,4 +1,7 @@
 #
 # system.prop for aml8726m
 #
-
+# MEMSIC
+#ro.sf.gsensorposition=
+# gralloc.amlogic.so
+#sys.fb.bits=

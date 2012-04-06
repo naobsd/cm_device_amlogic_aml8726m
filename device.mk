@@ -84,9 +84,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	dalvik.vm.dexopt-data-only=1 \
 	hwui.render_dirty_regions=false \
 	qemu.sf.lcd_density=160 \
-	ro.sf.gsensorposition=4 \
-	ro.vold.switchablepair=/mnt/sdcard,/mnt/nand \
-	sys.fb.bits=32
+	ro.vold.switchablepair=/mnt/sdcard,/mnt/nand
 
 PRODUCT_CHARACTERISTICS := tablet
 
