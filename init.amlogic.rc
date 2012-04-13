@@ -46,6 +46,18 @@ on fs
 	insmod /system/lib/modules/ump.ko
 	insmod /system/lib/modules/mali.ko
 
+	# HdmiSwitch
+	chmod 0666 /sys/class/amhdmitx/amhdmitx0/disp_cap
+	chmod 0666 /sys/class/amhdmitx/amhdmitx0/disp_mode
+	chmod 0666 /sys/class/display/axis
+	chmod 0666 /sys/class/display/mode
+	chmod 0666 /sys/class/graphics/fb0/blank
+	chmod 0666 /sys/class/ppmgr/ppscaler
+	chmod 0666 /sys/class/ppmgr/ppscaler_rect
+	chmod 0666 /sys/class/video/axis
+	chmod 0666 /sys/class/video/disable_video
+	chmod 0666 /sys/devices/platform/aml-bl/backlight/aml-bl/brightness
+
 	# lights.amlogic.so
 	chown system system /sys/class/backlight/aml-bl/brightness
 

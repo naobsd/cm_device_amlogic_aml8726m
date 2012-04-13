@@ -1,6 +1,10 @@
 /dev/video0               0666   system     system
 /dev/video1               0666   system     system
 
+# HdmiSwitch
+/dev/graphics/fb0         0666   root       graphics
+/dev/graphics/fb1         0666   root       graphics
+
 # InvenSense
 /dev/accelirq             0660   system     system
 /dev/mpu                  0660   system     system

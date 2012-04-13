@@ -20,6 +20,7 @@ DEVICE=aml8726m
 MANUFACTURER=amlogic
 
 mkdir -p ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+adb pull /system/app/HdmiSwitch.apk ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/HdmiSwitch.apk
 adb pull /system/bin/alsa_ctl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/alsa_ctl
 adb pull /system/bin/memsicd ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/memsicd
 adb pull /system/bin/remotecfg ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/remotecfg
@@ -42,6 +43,7 @@ adb pull /system/lib/libMali.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietar
 adb pull /system/lib/libUMP.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libUMP.so
 adb pull /system/lib/liba2dp.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/liba2dp.so
 adb pull /system/lib/libasound.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libasound.so
+adb pull /system/lib/libhdmiswitchjni.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libhdmiswitchjni.so
 adb pull /system/lib/libmllite.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libmllite.so
 adb pull /system/lib/libmlplatform.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libmlplatform.so
 adb pull /system/lib/libmpl.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libmpl.so
@@ -98,6 +100,7 @@ PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libUMP.so:system/lib/libUMP.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/liba2dp.so:system/lib/liba2dp.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libasound.so:system/lib/libasound.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libhdmiswitchjni.so:system/lib/libhdmiswitchjni.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmllite.so:system/lib/libmllite.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmlplatform.so:system/lib/libmlplatform.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmpl.so:system/lib/libmpl.so \\
@@ -110,8 +113,8 @@ PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/default.conf:system/usr/share/alsa/pcm/default.conf
 
 # All the apks necessary for aml8726m
-#PRODUCT_PACKAGES += \\
-#    XXX
+PRODUCT_PACKAGES += \\
+    HdmiSwitch
 
 EOF
 
@@ -137,17 +140,17 @@ LOCAL_PATH:=\$(call my-dir)
 
 # Module makefile rules for apks on aml8726m
 
-# XXX
+# HdmiSwitch
 
-#include \$(CLEAR_VARS)
+include \$(CLEAR_VARS)
 
-#LOCAL_MODULE := XXX
-#LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
-#LOCAL_MODULE_CLASS := APPS
-#LOCAL_MODULE_TAGS := optional
-#LOCAL_CERTIFICATE := PRESIGNED
-#LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
-#include \$(BUILD_PREBUILT)
+LOCAL_MODULE := HdmiSwitch
+LOCAL_SRC_FILES := \$(LOCAL_MODULE).apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_SUFFIX := \$(COMMON_ANDROID_PACKAGE_SUFFIX)
+include \$(BUILD_PREBUILT)
 
 endif
 
