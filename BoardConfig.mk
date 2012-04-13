@@ -66,9 +66,9 @@ BOARD_FLASH_BLOCK_SIZE := 4194304
 # Wifi related defines
 BOARD_WPA_SUPPLICANT_DRIVER := WEXT
 WPA_SUPPLICANT_VERSION      := VER_0_6_X
-#WIFI_DRIVER_MODULE_PATH     := ""
-#WIFI_DRIVER_MODULE_ARG      := ""
-#WIFI_DRIVER_MODULE_NAME     := ""
+#WIFI_DRIVER_MODULE_PATH     := "/system/lib/modules/dhd.ko"
+#WIFI_DRIVER_MODULE_ARG      := "firmware_path=/etc/sdio-g-cdc-full11n-reclaim-roml-wme-idsup.bin nvram_path=/etc/nvram.txt"
+#WIFI_DRIVER_MODULE_NAME     := "dhd"
 #WIFI_EXT_MODULE_PATH        := ""
 #WIFI_EXT_MODULE_ARG         := ""
 #WIFI_EXT_MODULE_NAME        := ""

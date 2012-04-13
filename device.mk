@@ -61,6 +61,7 @@ PRODUCT_COPY_FILES += \
 # Input device calibration files
 PRODUCT_COPY_FILES += \
 	device/amlogic/aml8726m/prebuilt/Goodix_TouchScreen_of_Guitar.idc:system/usr/idc/Goodix_TouchScreen_of_Guitar.idc \
+	device/amlogic/aml8726m/prebuilt/Touch_Screen.idc:system/usr/idc/Touch_Screen.idc \
 	device/amlogic/aml8726m/prebuilt/eGalax_Touch_Screen.idc:system/usr/idc/eGalax_Touch_Screen.idc
 
 # These are the hardware-specific features

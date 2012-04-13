@@ -25,7 +25,9 @@ unzip -j -o ../../../${DEVICE}_update.zip system/bin/memsicd -d ../../../vendor/
 unzip -j -o ../../../${DEVICE}_update.zip system/bin/remotecfg -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/asound.conf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/asound.state -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/nvram.txt -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/remote.conf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/sdio-g-cdc-full11n-reclaim-roml-wme-idsup.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/egl/libEGL_mali.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/egl/libGLESv1_CM_mali.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/egl/libGLESv2_mali.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
@@ -40,6 +42,10 @@ unzip -j -o ../../../${DEVICE}_update.zip system/lib/libMali.so -d ../../../vend
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libUMP.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/liba2dp.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libasound.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/lib/libmllite.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/lib/libmlplatform.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/lib/libmpl.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/dhd.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/mali.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/ump.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/usr/share/alsa/alsa.conf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
@@ -75,7 +81,9 @@ PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/remotecfg:system/bin/remotecfg \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/asound.conf:system/etc/asound.conf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/asound.state:system/etc/asound.state \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvram.txt:system/etc/nvram.txt \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/remote.conf:system/etc/remote.conf \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/sdio-g-cdc-full11n-reclaim-roml-wme-idsup.bin:system/etc/sdio-g-cdc-full11n-reclaim-roml-wme-idsup.bin \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libEGL_mali.so:system/lib/egl/libEGL_mali.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \\
@@ -90,6 +98,10 @@ PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libUMP.so:system/lib/libUMP.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/liba2dp.so:system/lib/liba2dp.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libasound.so:system/lib/libasound.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmllite.so:system/lib/libmllite.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmlplatform.so:system/lib/libmlplatform.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmpl.so:system/lib/libmpl.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/dhd.ko:system/lib/modules/dhd.ko \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/mali.ko:system/lib/modules/mali.ko \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/ump.ko:system/lib/modules/ump.ko \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/alsa.conf:system/usr/share/alsa/alsa.conf \\
