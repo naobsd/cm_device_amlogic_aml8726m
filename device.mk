@@ -87,6 +87,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	qemu.sf.lcd_density=160 \
 	ro.vold.switchablepair=/mnt/sdcard,/mnt/nand
 
+# AmlogicPlayer
+PRODUCT_PROPERTY_OVERRIDES += \
+	media.amplayer.enable-acodecs=asf,wav,aac,mp3,m4a,ape,flac,alac \
+	media.amplayer.enable=true \
+	media.amplayer.thumbnail=true \
+	media.amsuperplayer.defplayer=PV_PLAYER \
+	media.amsuperplayer.enable=true \
+	media.amsuperplayer.m4aplayer=STAGEFRIGHT_PLAYER
+
 PRODUCT_CHARACTERISTICS := tablet
 
 PRODUCT_TAGS += dalvik.gc.type-precise

@@ -26,6 +26,44 @@ adb pull /system/bin/memsicd ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/m
 adb pull /system/bin/remotecfg ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/remotecfg
 adb pull /system/etc/asound.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/asound.conf
 adb pull /system/etc/asound.state ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/asound.state
+adb pull /system/etc/firmware/audiodsp_codec_aac.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_aac.bin
+adb pull /system/etc/firmware/audiodsp_codec_aac.bin.checksum ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_aac.bin.checksum
+adb pull /system/etc/firmware/audiodsp_codec_aac_helix.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_aac_helix.bin
+adb pull /system/etc/firmware/audiodsp_codec_aac_helix.bin.checksum ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_aac_helix.bin.checksum
+adb pull /system/etc/firmware/audiodsp_codec_ac3.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_ac3.bin
+adb pull /system/etc/firmware/audiodsp_codec_ac3.bin.checksum ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_ac3.bin.checksum
+adb pull /system/etc/firmware/audiodsp_codec_adpcm.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_adpcm.bin
+adb pull /system/etc/firmware/audiodsp_codec_adpcm.bin.checksum ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_adpcm.bin.checksum
+adb pull /system/etc/firmware/audiodsp_codec_alac.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_alac.bin
+adb pull /system/etc/firmware/audiodsp_codec_alac.bin.checksum ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_alac.bin.checksum
+adb pull /system/etc/firmware/audiodsp_codec_amr.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_amr.bin
+adb pull /system/etc/firmware/audiodsp_codec_amr.bin.checksum ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_amr.bin.checksum
+adb pull /system/etc/firmware/audiodsp_codec_ape.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_ape.bin
+adb pull /system/etc/firmware/audiodsp_codec_ape.bin.checksum ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_ape.bin.checksum
+adb pull /system/etc/firmware/audiodsp_codec_cook.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_cook.bin
+adb pull /system/etc/firmware/audiodsp_codec_cook.bin.checksum ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_cook.bin.checksum
+adb pull /system/etc/firmware/audiodsp_codec_dca.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_dca.bin
+adb pull /system/etc/firmware/audiodsp_codec_dca.bin.checksum ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_dca.bin.checksum
+adb pull /system/etc/firmware/audiodsp_codec_flac.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_flac.bin
+adb pull /system/etc/firmware/audiodsp_codec_flac.bin.checksum ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_flac.bin.checksum
+adb pull /system/etc/firmware/audiodsp_codec_mad.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_mad.bin
+adb pull /system/etc/firmware/audiodsp_codec_mad.bin.checksum ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_mad.bin.checksum
+adb pull /system/etc/firmware/audiodsp_codec_mp3.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_mp3.bin
+adb pull /system/etc/firmware/audiodsp_codec_mp3.bin.checksum ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_mp3.bin.checksum
+adb pull /system/etc/firmware/audiodsp_codec_mp3_lp.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_mp3_lp.bin
+adb pull /system/etc/firmware/audiodsp_codec_mp3_lp.bin.checksum ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_mp3_lp.bin.checksum
+adb pull /system/etc/firmware/audiodsp_codec_null.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_null.bin
+adb pull /system/etc/firmware/audiodsp_codec_null.bin.checksum ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_null.bin.checksum
+adb pull /system/etc/firmware/audiodsp_codec_pcm.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_pcm.bin
+adb pull /system/etc/firmware/audiodsp_codec_pcm.bin.checksum ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_pcm.bin.checksum
+adb pull /system/etc/firmware/audiodsp_codec_raac.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_raac.bin
+adb pull /system/etc/firmware/audiodsp_codec_raac.bin.checksum ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_raac.bin.checksum
+adb pull /system/etc/firmware/audiodsp_codec_vorbis.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_vorbis.bin
+adb pull /system/etc/firmware/audiodsp_codec_vorbis.bin.checksum ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_vorbis.bin.checksum
+adb pull /system/etc/firmware/audiodsp_codec_wma.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_wma.bin
+adb pull /system/etc/firmware/audiodsp_codec_wma.bin.checksum ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_wma.bin.checksum
+adb pull /system/etc/firmware/audiodsp_codec_wmapro.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_wmapro.bin
+adb pull /system/etc/firmware/audiodsp_codec_wmapro.bin.checksum ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/audiodsp_codec_wmapro.bin.checksum
 adb pull /system/etc/nvram.txt ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/nvram.txt
 adb pull /system/etc/remote.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/remote.conf
 adb pull /system/etc/sdio-g-cdc-full11n-reclaim-roml-wme-idsup.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/sdio-g-cdc-full11n-reclaim-roml-wme-idsup.bin
@@ -42,11 +80,15 @@ adb pull /system/lib/hw/sensors.amlogic.so ../../../vendor/$MANUFACTURER/$DEVICE
 adb pull /system/lib/libMali.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libMali.so
 adb pull /system/lib/libUMP.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libUMP.so
 adb pull /system/lib/liba2dp.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/liba2dp.so
+adb pull /system/lib/libamavutils.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libamavutils.so
+adb pull /system/lib/libamplayer.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libamplayer.so
 adb pull /system/lib/libasound.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libasound.so
 adb pull /system/lib/libhdmiswitchjni.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libhdmiswitchjni.so
+adb pull /system/lib/libmediaplayerservice.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libmediaplayerservice.so
 adb pull /system/lib/libmllite.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libmllite.so
 adb pull /system/lib/libmlplatform.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libmlplatform.so
 adb pull /system/lib/libmpl.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libmpl.so
+adb pull /system/lib/libstagefright.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libstagefright.so
 adb pull /system/lib/modules/dhd.ko ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/dhd.ko
 adb pull /system/lib/modules/mali.ko ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/mali.ko
 adb pull /system/lib/modules/ump.ko ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/ump.ko
@@ -73,8 +115,9 @@ adb pull /system/usr/share/alsa/pcm/default.conf ../../../vendor/$MANUFACTURER/$
 # This file is generated by device/__MANUFACTURER__/__DEVICE__/extract-files.sh - DO NOT EDIT
 
 # Prebuilt libraries that are needed to build open-source libraries
-#PRODUCT_COPY_FILES := \\
-#    vendor/__MANUFACTURER__/__DEVICE__/proprietary/XXX:obj/lib/XXX
+PRODUCT_COPY_FILES := \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmediaplayerservice.so:obj/lib/libmediaplayerservice.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libstagefright.so:obj/lib/libstagefright.so
 
 # All the blobs necessary for aml8726m
 PRODUCT_COPY_FILES += \\
@@ -83,6 +126,44 @@ PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/remotecfg:system/bin/remotecfg \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/asound.conf:system/etc/asound.conf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/asound.state:system/etc/asound.state \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_aac.bin:system/etc/firmware/audiodsp_codec_aac.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_aac.bin.checksum:system/etc/firmware/audiodsp_codec_aac.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_aac_helix.bin:system/etc/firmware/audiodsp_codec_aac_helix.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_aac_helix.bin.checksum:system/etc/firmware/audiodsp_codec_aac_helix.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_ac3.bin:system/etc/firmware/audiodsp_codec_ac3.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_ac3.bin.checksum:system/etc/firmware/audiodsp_codec_ac3.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_adpcm.bin:system/etc/firmware/audiodsp_codec_adpcm.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_adpcm.bin.checksum:system/etc/firmware/audiodsp_codec_adpcm.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_alac.bin:system/etc/firmware/audiodsp_codec_alac.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_alac.bin.checksum:system/etc/firmware/audiodsp_codec_alac.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_amr.bin:system/etc/firmware/audiodsp_codec_amr.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_amr.bin.checksum:system/etc/firmware/audiodsp_codec_amr.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_ape.bin:system/etc/firmware/audiodsp_codec_ape.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_ape.bin.checksum:system/etc/firmware/audiodsp_codec_ape.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_cook.bin:system/etc/firmware/audiodsp_codec_cook.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_cook.bin.checksum:system/etc/firmware/audiodsp_codec_cook.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_dca.bin:system/etc/firmware/audiodsp_codec_dca.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_dca.bin.checksum:system/etc/firmware/audiodsp_codec_dca.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_flac.bin:system/etc/firmware/audiodsp_codec_flac.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_flac.bin.checksum:system/etc/firmware/audiodsp_codec_flac.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_mad.bin:system/etc/firmware/audiodsp_codec_mad.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_mad.bin.checksum:system/etc/firmware/audiodsp_codec_mad.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_mp3.bin:system/etc/firmware/audiodsp_codec_mp3.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_mp3.bin.checksum:system/etc/firmware/audiodsp_codec_mp3.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_mp3_lp.bin:system/etc/firmware/audiodsp_codec_mp3_lp.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_mp3_lp.bin.checksum:system/etc/firmware/audiodsp_codec_mp3_lp.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_null.bin:system/etc/firmware/audiodsp_codec_null.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_null.bin.checksum:system/etc/firmware/audiodsp_codec_null.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_pcm.bin:system/etc/firmware/audiodsp_codec_pcm.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_pcm.bin.checksum:system/etc/firmware/audiodsp_codec_pcm.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_raac.bin:system/etc/firmware/audiodsp_codec_raac.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_raac.bin.checksum:system/etc/firmware/audiodsp_codec_raac.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_vorbis.bin:system/etc/firmware/audiodsp_codec_vorbis.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_vorbis.bin.checksum:system/etc/firmware/audiodsp_codec_vorbis.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_wma.bin:system/etc/firmware/audiodsp_codec_wma.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_wma.bin.checksum:system/etc/firmware/audiodsp_codec_wma.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_wmapro.bin:system/etc/firmware/audiodsp_codec_wmapro.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_wmapro.bin.checksum:system/etc/firmware/audiodsp_codec_wmapro.bin.checksum \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvram.txt:system/etc/nvram.txt \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/remote.conf:system/etc/remote.conf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/sdio-g-cdc-full11n-reclaim-roml-wme-idsup.bin:system/etc/sdio-g-cdc-full11n-reclaim-roml-wme-idsup.bin \\
@@ -99,11 +180,15 @@ PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libMali.so:system/lib/libMali.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libUMP.so:system/lib/libUMP.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/liba2dp.so:system/lib/liba2dp.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libamavutils.so:system/lib/libamavutils.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libamplayer.so:system/lib/libamplayer.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libasound.so:system/lib/libasound.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libhdmiswitchjni.so:system/lib/libhdmiswitchjni.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmediaplayerservice.so:system/lib/libmediaplayerservice.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmllite.so:system/lib/libmllite.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmlplatform.so:system/lib/libmlplatform.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmpl.so:system/lib/libmpl.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libstagefright.so:system/lib/libstagefright.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/dhd.ko:system/lib/modules/dhd.ko \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/mali.ko:system/lib/modules/mali.ko \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/ump.ko:system/lib/modules/ump.ko \\

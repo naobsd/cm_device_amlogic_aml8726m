@@ -26,6 +26,44 @@ unzip -j -o ../../../${DEVICE}_update.zip system/bin/memsicd -d ../../../vendor/
 unzip -j -o ../../../${DEVICE}_update.zip system/bin/remotecfg -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/asound.conf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/asound.state -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_aac.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_aac.bin.checksum -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_aac_helix.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_aac_helix.bin.checksum -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_ac3.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_ac3.bin.checksum -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_adpcm.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_adpcm.bin.checksum -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_alac.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_alac.bin.checksum -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_amr.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_amr.bin.checksum -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_ape.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_ape.bin.checksum -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_cook.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_cook.bin.checksum -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_dca.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_dca.bin.checksum -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_flac.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_flac.bin.checksum -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_mad.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_mad.bin.checksum -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_mp3.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_mp3.bin.checksum -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_mp3_lp.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_mp3_lp.bin.checksum -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_null.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_null.bin.checksum -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_pcm.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_pcm.bin.checksum -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_raac.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_raac.bin.checksum -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_vorbis.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_vorbis.bin.checksum -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_wma.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_wma.bin.checksum -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_wmapro.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_wmapro.bin.checksum -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/nvram.txt -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/remote.conf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/sdio-g-cdc-full11n-reclaim-roml-wme-idsup.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
@@ -42,11 +80,15 @@ unzip -j -o ../../../${DEVICE}_update.zip system/lib/hw/sensors.amlogic.so -d ..
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libMali.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libUMP.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/liba2dp.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/lib/libamavutils.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/lib/libamplayer.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libasound.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libhdmiswitchjni.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/lib/libmediaplayerservice.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libmllite.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libmlplatform.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libmpl.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/lib/libstagefright.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/dhd.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/mali.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/modules/ump.ko -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
@@ -73,8 +115,9 @@ unzip -j -o ../../../${DEVICE}_update.zip system/usr/share/alsa/pcm/default.conf
 # This file is generated by device/__MANUFACTURER__/__DEVICE__/unzip-files.sh - DO NOT EDIT
 
 # Prebuilt libraries that are needed to build open-source libraries
-#PRODUCT_COPY_FILES := \\
-#    vendor/__MANUFACTURER__/__DEVICE__/proprietary/XXX:obj/lib/XXX
+PRODUCT_COPY_FILES := \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmediaplayerservice.so:obj/lib/libmediaplayerservice.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libstagefright.so:obj/lib/libstagefright.so
 
 # All the blobs necessary for aml8726m
 PRODUCT_COPY_FILES += \\
@@ -83,6 +126,44 @@ PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/remotecfg:system/bin/remotecfg \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/asound.conf:system/etc/asound.conf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/asound.state:system/etc/asound.state \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_aac.bin:system/etc/firmware/audiodsp_codec_aac.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_aac.bin.checksum:system/etc/firmware/audiodsp_codec_aac.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_aac_helix.bin:system/etc/firmware/audiodsp_codec_aac_helix.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_aac_helix.bin.checksum:system/etc/firmware/audiodsp_codec_aac_helix.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_ac3.bin:system/etc/firmware/audiodsp_codec_ac3.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_ac3.bin.checksum:system/etc/firmware/audiodsp_codec_ac3.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_adpcm.bin:system/etc/firmware/audiodsp_codec_adpcm.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_adpcm.bin.checksum:system/etc/firmware/audiodsp_codec_adpcm.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_alac.bin:system/etc/firmware/audiodsp_codec_alac.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_alac.bin.checksum:system/etc/firmware/audiodsp_codec_alac.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_amr.bin:system/etc/firmware/audiodsp_codec_amr.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_amr.bin.checksum:system/etc/firmware/audiodsp_codec_amr.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_ape.bin:system/etc/firmware/audiodsp_codec_ape.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_ape.bin.checksum:system/etc/firmware/audiodsp_codec_ape.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_cook.bin:system/etc/firmware/audiodsp_codec_cook.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_cook.bin.checksum:system/etc/firmware/audiodsp_codec_cook.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_dca.bin:system/etc/firmware/audiodsp_codec_dca.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_dca.bin.checksum:system/etc/firmware/audiodsp_codec_dca.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_flac.bin:system/etc/firmware/audiodsp_codec_flac.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_flac.bin.checksum:system/etc/firmware/audiodsp_codec_flac.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_mad.bin:system/etc/firmware/audiodsp_codec_mad.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_mad.bin.checksum:system/etc/firmware/audiodsp_codec_mad.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_mp3.bin:system/etc/firmware/audiodsp_codec_mp3.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_mp3.bin.checksum:system/etc/firmware/audiodsp_codec_mp3.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_mp3_lp.bin:system/etc/firmware/audiodsp_codec_mp3_lp.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_mp3_lp.bin.checksum:system/etc/firmware/audiodsp_codec_mp3_lp.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_null.bin:system/etc/firmware/audiodsp_codec_null.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_null.bin.checksum:system/etc/firmware/audiodsp_codec_null.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_pcm.bin:system/etc/firmware/audiodsp_codec_pcm.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_pcm.bin.checksum:system/etc/firmware/audiodsp_codec_pcm.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_raac.bin:system/etc/firmware/audiodsp_codec_raac.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_raac.bin.checksum:system/etc/firmware/audiodsp_codec_raac.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_vorbis.bin:system/etc/firmware/audiodsp_codec_vorbis.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_vorbis.bin.checksum:system/etc/firmware/audiodsp_codec_vorbis.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_wma.bin:system/etc/firmware/audiodsp_codec_wma.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_wma.bin.checksum:system/etc/firmware/audiodsp_codec_wma.bin.checksum \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_wmapro.bin:system/etc/firmware/audiodsp_codec_wmapro.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_wmapro.bin.checksum:system/etc/firmware/audiodsp_codec_wmapro.bin.checksum \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvram.txt:system/etc/nvram.txt \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/remote.conf:system/etc/remote.conf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/sdio-g-cdc-full11n-reclaim-roml-wme-idsup.bin:system/etc/sdio-g-cdc-full11n-reclaim-roml-wme-idsup.bin \\
@@ -99,11 +180,15 @@ PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libMali.so:system/lib/libMali.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libUMP.so:system/lib/libUMP.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/liba2dp.so:system/lib/liba2dp.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libamavutils.so:system/lib/libamavutils.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libamplayer.so:system/lib/libamplayer.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libasound.so:system/lib/libasound.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libhdmiswitchjni.so:system/lib/libhdmiswitchjni.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmediaplayerservice.so:system/lib/libmediaplayerservice.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmllite.so:system/lib/libmllite.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmlplatform.so:system/lib/libmlplatform.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libmpl.so:system/lib/libmpl.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libstagefright.so:system/lib/libstagefright.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/dhd.ko:system/lib/modules/dhd.ko \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/mali.ko:system/lib/modules/mali.ko \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/ump.ko:system/lib/modules/ump.ko \\

@@ -84,4 +84,5 @@ BOARD_USE_LEGACY_TOUCHSCREEN := true
 #TARGET_SENSORS_NO_OPEN_CHECK := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/platform/usb_mass_storage/lun%d/file"
 
+BOARD_USES_AMLOGICPLAYER := true
 TARGET_USES_OLD_HARDWARE_NAME := true

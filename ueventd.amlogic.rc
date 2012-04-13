@@ -1,7 +1,19 @@
 /dev/video0               0666   system     system
 /dev/video1               0666   system     system
 
-# HdmiSwitch
+# AmlogicPlayer
+/dev/amaudio_ctl          0666   system     audio
+/dev/amstream_abuf        0666   system     audio
+/dev/amstream_mpps        0666   system     audio
+/dev/amstream_mpts        0666   system     audio
+/dev/amstream_rm          0666   system     audio
+/dev/amstream_sub         0666   system     audio
+/dev/amstream_sub_read    0666   system     audio
+/dev/amstream_vbuf        0666   system     audio
+/dev/amvideo              0666   system     audio
+/dev/audiodsp0            0666   system     audio
+
+# AmlogicPlayer and HdmiSwitch
 /dev/graphics/fb0         0666   root       graphics
 /dev/graphics/fb1         0666   root       graphics
 

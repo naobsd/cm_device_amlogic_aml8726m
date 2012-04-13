@@ -46,6 +46,55 @@ on fs
 	insmod /system/lib/modules/ump.ko
 	insmod /system/lib/modules/mali.ko
 
+	# AmlogicPlayer
+	chmod 0666 /sys/class/aml_clk81/clk81_freq_level
+	chmod 0666 /sys/class/amstream/amutils_cmd
+	chmod 0666 /sys/class/amstream/amutils_enable
+	chmod 0666 /sys/class/amstream/vcodec_profile
+	chmod 0666 /sys/class/astream/format
+	chmod 0666 /sys/class/audiodsp/codec_fatal_err
+	chmod 0666 /sys/class/audiodsp/codec_mips
+	chmod 0666 /sys/class/display/axis
+	chmod 0666 /sys/class/display/mode
+	chmod 0666 /sys/class/graphics/fb0/blank
+	chmod 0666 /sys/class/graphics/fb0/free_scale
+	chmod 0666 /sys/class/graphics/fb0/request2XScale
+	chmod 0666 /sys/class/graphics/fb0/scale
+	chmod 0666 /sys/class/graphics/fb0/scale_axis
+	chmod 0666 /sys/class/graphics/fb0/scale_height
+	chmod 0666 /sys/class/graphics/fb0/scale_width
+	chmod 0666 /sys/class/graphics/fb0/virtual_size
+	chmod 0666 /sys/class/graphics/fb1/blank
+	chmod 0666 /sys/class/graphics/fb1/free_scale
+	chmod 0666 /sys/class/graphics/fb1/scale
+	chmod 0666 /sys/class/graphics/fb1/scale_axis
+	chmod 0666 /sys/class/graphics/fb1/scale_height
+	chmod 0666 /sys/class/graphics/fb1/scale_width
+	chmod 0666 /sys/class/ppmgr/angle
+	chmod 0666 /sys/class/ppmgr/ppscaler
+	chmod 0666 /sys/class/ppmgr/ppscaler_rect
+	chmod 0666 /sys/class/stb/demux1_source
+	chmod 0666 /sys/class/stb/source
+	chmod 0666 /sys/class/subtitle/curr
+	chmod 0666 /sys/class/subtitle/enable
+	chmod 0666 /sys/class/subtitle/fps
+	chmod 0666 /sys/class/subtitle/startpts
+	chmod 0666 /sys/class/subtitle/subtype
+	chmod 0666 /sys/class/subtitle/total
+	chmod 0666 /sys/class/tsync/discontinue
+	chmod 0666 /sys/class/tsync/enable
+	chmod 0666 /sys/class/tsync/event
+	chmod 0666 /sys/class/tsync/pts_audio
+	chmod 0666 /sys/class/tsync/pts_pcrscr
+	chmod 0666 /sys/class/tsync/pts_video
+	chmod 0666 /sys/class/video/axis
+	chmod 0666 /sys/class/video/blackout_policy
+	chmod 0666 /sys/class/video/device_resolution
+	chmod 0666 /sys/class/video/disable_video
+	chmod 0666 /sys/class/video/file_name
+	chmod 0666 /sys/class/video/global_offset
+	chmod 0666 /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
+
 	# HdmiSwitch
 	chmod 0666 /sys/class/amhdmitx/amhdmitx0/disp_cap
 	chmod 0666 /sys/class/amhdmitx/amhdmitx0/disp_mode
