@@ -4,7 +4,6 @@
 /cache		yaffs2		cache
 /data		yaffs2		userdata
 /emmc		vfat		/dev/block/avnftl8p1	/dev/block/avnftl8
-#/emmc		vfat		/dev/block/avnftl9p1	/dev/block/avnftl9
 /recovery	mtd		recovery
 /sdcard		vfat		/dev/block/cardblksd1	/dev/block/cardblksd
 /sd-ext		auto		/dev/block/cardblksd2
