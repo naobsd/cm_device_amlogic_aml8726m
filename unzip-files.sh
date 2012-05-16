@@ -64,9 +64,9 @@ unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_wma
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_wma.bin.checksum -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_wmapro.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/firmware/audiodsp_codec_wmapro.bin.checksum -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/nvram.txt -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/etc/remote.conf -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/etc/sdio-g-cdc-full11n-reclaim-roml-wme-idsup.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/wifi/nvram.txt -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
+unzip -j -o ../../../${DEVICE}_update.zip system/etc/wifi/sdio-g-cdc-full11n-reclaim-roml-wme-idsup.bin -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/egl/libEGL_mali.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/egl/libGLESv1_CM_mali.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/egl/libGLESv2_mali.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
@@ -79,7 +79,6 @@ unzip -j -o ../../../${DEVICE}_update.zip system/lib/hw/lights.amlogic.so -d ../
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/hw/sensors.amlogic.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libMali.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libUMP.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-unzip -j -o ../../../${DEVICE}_update.zip system/lib/liba2dp.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libamavutils.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libamplayer.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
 unzip -j -o ../../../${DEVICE}_update.zip system/lib/libasound.so -d ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
@@ -164,9 +163,9 @@ PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_wma.bin.checksum:system/etc/firmware/audiodsp_codec_wma.bin.checksum \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_wmapro.bin:system/etc/firmware/audiodsp_codec_wmapro.bin \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/audiodsp_codec_wmapro.bin.checksum:system/etc/firmware/audiodsp_codec_wmapro.bin.checksum \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvram.txt:system/etc/nvram.txt \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/remote.conf:system/etc/remote.conf \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/sdio-g-cdc-full11n-reclaim-roml-wme-idsup.bin:system/etc/sdio-g-cdc-full11n-reclaim-roml-wme-idsup.bin \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/nvram.txt:system/etc/wifi/nvram.txt \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/sdio-g-cdc-full11n-reclaim-roml-wme-idsup.bin:system/etc/wifi/sdio-g-cdc-full11n-reclaim-roml-wme-idsup.bin \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libEGL_mali.so:system/lib/egl/libEGL_mali.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \\
@@ -179,7 +178,6 @@ PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/sensors.amlogic.so:system/lib/hw/sensors.amlogic.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libMali.so:system/lib/libMali.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libUMP.so:system/lib/libUMP.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/liba2dp.so:system/lib/liba2dp.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libamavutils.so:system/lib/libamavutils.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libamplayer.so:system/lib/libamplayer.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libasound.so:system/lib/libasound.so \\

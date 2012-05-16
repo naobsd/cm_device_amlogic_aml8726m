@@ -22,7 +22,8 @@ endif
 
 DEVICE_PACKAGE_OVERLAYS := device/amlogic/aml8726m/overlay
 
-#PRODUCT_PACKAGES := \
+PRODUCT_PACKAGES := \
+	audio.a2dp.default
 
 PRODUCT_COPY_FILES := \
 	$(LOCAL_KERNEL):kernel \

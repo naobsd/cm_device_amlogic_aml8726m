@@ -40,7 +40,7 @@ on fs
 	#chown bluetooth bluetooth /sys/class/rfkill/rfkill0/type
 
 	# Broadcom
-	insmod /system/lib/modules/dhd.ko firmware_path=/etc/sdio-g-cdc-full11n-reclaim-roml-wme-idsup.bin nvram_path=/etc/nvram.txt
+	insmod /system/lib/modules/dhd.ko firmware_path=/etc/wifi/sdio-g-cdc-full11n-reclaim-roml-wme-idsup.bin nvram_path=/etc/wifi/nvram.txt
 
 	# Mali
 	insmod /system/lib/modules/ump.ko
