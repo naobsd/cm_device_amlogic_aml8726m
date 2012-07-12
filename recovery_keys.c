@@ -30,11 +30,13 @@ int device_handle_key(int key_code, int visible) {
             case KEY_RIGHTCTRL:
             case KEY_HOME:
             case KEY_POWER:
+            case BTN_LEFT:
                 return SELECT_ITEM;
             
             case KEY_TAB:
             case KEY_BACK:
             case KEY_SEARCH:
+            case BTN_RIGHT:
                 return GO_BACK;
         }
     }
