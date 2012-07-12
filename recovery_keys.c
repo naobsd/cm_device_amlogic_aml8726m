@@ -37,7 +37,9 @@ int device_handle_key(int key_code, int visible) {
             case KEY_BACK:
             case KEY_SEARCH:
             case BTN_RIGHT:
-                return GO_BACK;
+                if (ui_menu_level > 0) {
+                    return GO_BACK;
+                }
         }
     }
 
