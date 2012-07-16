@@ -43,8 +43,8 @@ TARGET_BOARD_PLATFORM := amlogic
 TARGET_BOOTLOADER_BOARD_NAME := m1ref
 
 BOARD_EGL_CFG := device/amlogic/aml8726m/egl.cfg
-
 USE_OPENGL_RENDERER := true
+ENABLE_WEBGL := true
 
 BOARD_USE_SKIA_LCDTEXT := true
 
