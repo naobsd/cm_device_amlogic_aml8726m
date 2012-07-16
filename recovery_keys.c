@@ -12,7 +12,6 @@ int device_toggle_display(volatile char* key_pressed, int key_code) {
 int device_handle_key(int key_code, int visible) {
     if (visible) {
         switch (key_code) {
-            case KEY_LEFT:
             case KEY_DOWN:
             case KEY_PAGEDOWN:
             case KEY_VOLUMEDOWN:
@@ -22,18 +21,20 @@ int device_handle_key(int key_code, int visible) {
 
             case KEY_UP:
             case KEY_PAGEUP:
-            case KEY_RIGHT:
             case KEY_VOLUMEUP:
                 return HIGHLIGHT_UP;
 
             case KEY_KPENTER:
             case KEY_RIGHTCTRL:
             case KEY_HOME:
+            case KEY_LEFT:
             case KEY_POWER:
             case BTN_LEFT:
+            /*case BTN_TOUCH:*/
                 return SELECT_ITEM;
             
             case KEY_TAB:
+            case KEY_RIGHT:
             case KEY_BACK:
             case KEY_SEARCH:
             case BTN_RIGHT:
